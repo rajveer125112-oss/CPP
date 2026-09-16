@@ -18,7 +18,7 @@ This repository is my personal C++ revision tracker. Each folder covers one core
 
 | # | Topic | Description |
 |---|-------|-------------|
-| 01 | [Cpp Basics](./01-Cpp%20Basics) | Syntax, I/O, data types, control flow, functions |
+| 01 | [Cpp Basics](./01-Cpp%20Basics) | Syntax, I/O, data types, control flow, functions, loops, conditions, operators |
 | 02 | [Basic Data Structures](./02-Basic%20Data%20Structures) | Arrays, strings, vectors, and core containers |
 | 03 | [Pointers and References](./03-Pointers%20and%20References) | Pointer arithmetic, references, dynamic vs static memory |
 | 04 | [OOPS](./04-OOPS) | Classes, objects, inheritance, polymorphism, encapsulation |
