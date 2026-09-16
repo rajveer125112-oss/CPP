@@ -18,17 +18,17 @@ This repository is my personal C++ revision tracker. Each folder covers one core
 
 | # | Topic | Description |
 |---|-------|-------------|
-| 01 | [Cpp Basics](./Cpp%20Basics) | Syntax, I/O, data types, control flow, functions |
-| 02 | [Basic Data Structures](./Basic%20Data%20Structures) | Arrays, strings, vectors, and core containers |
-| 03 | [Pointers and References](./Pointers%20and%20References) | Pointer arithmetic, references, dynamic vs static memory |
-| 04 | [OOPS](./OOPS) | Classes, objects, inheritance, polymorphism, encapsulation |
-| 05 | [User Defined Data types](./User%20Defined%20Data%20types) | Structs, enums, unions, typedefs |
-| 06 | [Dynamic Memory Management](./Dynamic%20Memory%20Management) | `new`/`delete`, smart pointers, memory leaks |
-| 07 | [Exception Handling](./Exception%20Handling) | try/catch, custom exceptions, error safety |
-| 08 | [File Handling and Templates](./File%20Handling%20and%20Templates) | File I/O, function & class templates, generic programming |
-| 09 | [STL](./STL) | Vectors, maps, sets, iterators, algorithms |
-| 10 | [Advanced CPP](./Advanced%20CPP) | Move semantics, lambdas, multithreading, modern C++ features |
-| 11 | [Mini Projects for Practice](./Mini%20Projects%20for%20Practice) | Small hands-on projects applying multiple concepts together |
+| 01 | [Cpp Basics](./01-Cpp%20Basics) | Syntax, I/O, data types, control flow, functions |
+| 02 | [Basic Data Structures](./02-Basic%20Data%20Structures) | Arrays, strings, vectors, and core containers |
+| 03 | [Pointers and References](./03-Pointers%20and%20References) | Pointer arithmetic, references, dynamic vs static memory |
+| 04 | [OOPS](./04-OOPS) | Classes, objects, inheritance, polymorphism, encapsulation |
+| 05 | [User Defined Data types](./05-User%20Defined%20Data%20types) | Structs, enums, unions, typedefs |
+| 06 | [Dynamic Memory Management](./06-Dynamic%20Memory%20Management) | `new`/`delete`, smart pointers, memory leaks |
+| 07 | [Exception Handling](./07-Exception%20Handling) | try/catch, custom exceptions, error safety |
+| 08 | [File Handling and Templates](./08-File%20Handling%20and%20Templates) | File I/O, function & class templates, generic programming |
+| 09 | [STL](./09-STL) | Vectors, maps, sets, iterators, algorithms |
+| 10 | [Advanced CPP](./10-Advanced%20CPP) | Move semantics, lambdas, multithreading, modern C++ features |
+| 11 | [Mini Projects for Practice](./11-Mini%20Projects%20for%20Practice) | Small hands-on projects applying multiple concepts together |
 
 ---
 
