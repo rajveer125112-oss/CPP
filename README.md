@@ -10,7 +10,7 @@
 
 ## 📌 About
 
-This repository is my personal C++ revision tracker. Each folder covers one core topic, with notes, code snippets, and practice problems as I work through them. It's meant to be a quick-reference vault I can revisit before interviews or whenever I need to brush up on a specific concept.
+This repository is my personal C++ revision tracker. Each folder covers one core topic, with notes, code snippets, and practice problems as I work through them. It's meant to be a quick-reference vault I can revisit before interviews or whenever I need to brush up on a specific concept .
 
 ---
 
