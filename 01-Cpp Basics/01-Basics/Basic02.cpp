@@ -47,7 +47,7 @@ int main()
     unsigned int k=902343;
     cout<<k<<endl;          //Stores only Positive Values and zero doubling range of positive values
     
-    
+    //We covered all soughts of data types, majorly we use int,float,double,char,string,bool and void...
 
 }
 
