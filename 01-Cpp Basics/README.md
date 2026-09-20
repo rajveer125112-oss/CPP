@@ -6,7 +6,7 @@ A collection of C++ practice programs and notes, organized by topic, building up
 
 | Folder | Topic | Description |
 |---|---|---|
-| `01-Basics` | Basics | Syntax fundamentals — variables, data types, I/O, operators |
+| `01-Basics` | Basics | Syntax fundamentals — variables, data types, I/O, operators, TypeCasting |
 | `02-Conditional Statements` | Conditionals | `if`, `else if`, `else`, `switch` statements |
 | `03-Loops` | Loops | `for`, `while`, `do-while` loops and loop control (`break`/`continue`) |
 | `04-Functions` | Functions | Function declaration, definition, parameters, return types, overloading |
