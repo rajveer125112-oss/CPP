@@ -9,7 +9,7 @@ using namespace std;
 
 int main(){
     
-
+//Comment out any program you don't wish to run ....
 
 //for loops:
 
@@ -161,4 +161,35 @@ cout<<count;
         }
         cout<<"\n";
     }
+
+        //Hollow square
+
+        for(int i=1;i<=4;i++){
+            for(int j=1;j<=4;j++){
+                if(((j==2)||(j==3))&((i==2)||i==3)){
+                    cout<<" ";
+                }
+
+                else{
+                    cout<<"*";
+                }    
+                
+            }
+            cout<<"\n";
+        }
+
+        // pairs
+
+        int n6;
+        cout<<"Enter the value whose pairs you want to calculate ="; cin>>n6;
+        for(int i=2;i<=n6;i++){
+            for(int j=2;j<=n6;j++){
+                if(i*j==n6){
+                    cout<<i<<" "<<j;
+                    return 0;
+                }
+            }
+        }
+    cout<<"No pair found"; 
+    return 0;
 }
