@@ -17,8 +17,14 @@ int main(){
         n=n/10;
         count+=1;
     }
-    cout<<count;
+    cout<<count<<endl;
 
+    int n2;
+    cout<<"Enter the value of n2 to reverse it ="; cin>>n2;
+    while(n2>0){
+        cout<<n2%10;
+        n2=n2/10;
+    }
 
     
 }
