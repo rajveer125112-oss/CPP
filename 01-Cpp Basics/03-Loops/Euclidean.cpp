@@ -34,7 +34,7 @@ int main(){
     string s,rev;
    
     cout<<"Enter the string to check it's palindrome ="; cin>>s;
-    for(int i=0;i<=s.length();i++){
+    for(int i=0;i<s.length()/2;i++){
         if(s[i]!=s[s.length()-1-i]){
             cout<<"It's not a Palindrome";
             return 0;
