@@ -133,16 +133,38 @@ int main(){
 
     //HCF calculator for 2 numbers (Downward method method) {more efficient if number isn't prime}
 
-    int n7,n8,hcf;
-    cout<<"Enter the value of number 1 ="; cin>>n7;
-    cout<<"Enter the value of number 2 ="; cin>>n8;
-    for(int i=min(n7,n8);i>=1;i--){
-        if(n7%i==0 && n8%i==0){
-            hcf=i;
+    int n71,n81,hcf1;
+    cout<<"Enter the value of number 1 ="; cin>>n71;
+    cout<<"Enter the value of number 2 ="; cin>>n81;
+    for(int i=min(n71,n81);i>=1;i--){
+        if(n71%i==0 && n81%i==0){
+            hcf1=i;
             break;
         }
     }
-    cout<<"HCF of the two numbers is = "<<hcf; 
+    cout<<"HCF of the two numbers is = "<<hcf1; 
+
+    //Rather better GCD calculator with Euclidean Algorithm {Less time complexity -- O(logbasephi(min(a.b)))}
+
+    int a,b;
+    cout<<"Enter the value of a = "; cin>>a;
+    cout<<"Enter the value of b = "; cin>>b;
+
+    while((a>0)&&(b>0)){
+        if(a>b){
+            a=a%b;
+        }
+        else{
+            b=b%a;
+        }
+    }
+    if(a==0){
+        cout<<b;
+    }
+    else{
+        cout<<a;
+    }
+
 
     
 }
