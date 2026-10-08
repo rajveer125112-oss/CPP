@@ -18,6 +18,12 @@ void increment1(int &x){
     x++;
 }
 
+//Pass by pointer 
+
+void increment2(int *x){
+    if (x) (*x)++;          // only touch *x if x points somewhere valid
+}
+
 int main() {
 
     // Pass by value:
@@ -29,6 +35,9 @@ int main() {
     increment1(a);      // a becomes 6 (original modified through the reference)
     cout<<"\n"<<a;      // prints 6
 
-
+    //Pass by pointer:
+    increment2(&a);       // valid address, a becomes 6
+    cout<<"\n"<<a;
+    increment2(nullptr);  // x is null, the if skips it, no crash
 
 }
