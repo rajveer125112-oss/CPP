@@ -24,6 +24,16 @@ void increment2(int *x){
     if (x) (*x)++;          // only touch *x if x points somewhere valid
 }
 
+//Default arguements:
+
+int power(int base, int exp=2){
+    int result = 1;
+    for(int i =0; i<exp ;i++){
+        result=result*base;
+    }
+    return result;
+}
+
 int main() {
 
     // Pass by value:
@@ -39,5 +49,9 @@ int main() {
     increment2(&a);       // valid address, a becomes 6
     cout<<"\n"<<a;
     increment2(nullptr);  // x is null, the if skips it, no crash
+
+    //Default Arguements:
+    cout<<power(3)<<endl;
+    cout<<power(3,3);
 
 }
