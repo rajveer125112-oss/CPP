@@ -32,6 +32,14 @@ int power(int base, int exp=2){
         result=result*base;
     }
     return result;
+
+}
+
+
+//Inline function : It asks the compiler to paste the function body directly where it’s called, so there is no jump.
+
+inline int square(int x){
+    return x*x;
 }
 
 int main() {
@@ -54,4 +62,6 @@ int main() {
     cout<<power(3)<<endl;
     cout<<power(3,3);
 
+    //Inline functions:
+    cout<<square(2);
 }
