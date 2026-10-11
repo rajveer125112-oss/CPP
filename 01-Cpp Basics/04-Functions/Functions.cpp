@@ -24,6 +24,12 @@ void increment2(int *x){
     if (x) (*x)++;          // only touch *x if x points somewhere valid
 }
 
+//Function overloading: the function adjusts according to the input 
+
+int add(int a, int b){return a+b;}
+double add(double a, double b){return a+b;}
+int add(int a, int b, int c){return a+b+c;}
+
 //Default arguements:
 
 int power(int base, int exp=2){
@@ -64,4 +70,9 @@ int main() {
 
     //Inline functions:
     cout<<square(2);
+
+    //Function Overloading
+    cout<<add(2,3)<<endl;
+    cout<<add(3.5,2.0)<<endl;
+    cout<<add(2,3,4)<<endl;
 }
