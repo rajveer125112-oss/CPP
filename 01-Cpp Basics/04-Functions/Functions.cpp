@@ -69,39 +69,45 @@ public:
     static int cube(int x) { return x * x * x; }
 };
 
+//Function Pointers: Stores function address in a variable , we can repoint it...
+int sum(int x, int y){ return x+y;}
+int(*lul)(int,int)=sum;
 
 int main() {
 
-//     // Pass by value:
-//     int a=5;
-//     increment(a);       // prints 6 (copy was incremented)  
-//     cout<<"\n"<<a;      // prints 5 (original is unchanged)
+    // Pass by value:
+    int a=5;
+    increment(a);       // prints 6 (copy was incremented)  
+    cout<<"\n"<<a;      // prints 5 (original is unchanged)
 
-//     //Pass by reference:
-//     increment1(a);      // a becomes 6 (original modified through the reference)
-//     cout<<"\n"<<a;      // prints 6
+    //Pass by reference:
+    increment1(a);      // a becomes 6 (original modified through the reference)
+    cout<<"\n"<<a;      // prints 6
 
-//     //Pass by pointer:
-//     increment2(&a);       // valid address, a becomes 6
-//     cout<<"\n"<<a;
-//     increment2(nullptr);  // x is null, the if skips it, no crash
+    //Pass by pointer:
+    increment2(&a);       // valid address, a becomes 6
+    cout<<"\n"<<a;
+    increment2(nullptr);  // x is null, the if skips it, no crash
 
-//     //Default Arguements:
-//     cout<<power(3)<<endl;
-//     cout<<power(3,3);
+    //Default Arguements:
+    cout<<power(3)<<endl;
+    cout<<power(3,3);
 
-//     //Inline functions:
-//     cout<<square(2);
+    //Inline functions:
+    cout<<square(2);
 
-//     //Function Overloading
-//     cout<<add(2,3)<<endl;
-//     cout<<add(3.5,2.0)<<endl;
-//     cout<<add(2,3,4)<<endl;
+    //Function Overloading
+    cout<<add(2,3)<<endl;
+    cout<<add(3.5,2.0)<<endl;
+    cout<<add(2,3,4)<<endl;
 
-//     //Recursive function
-//     cout<<factorial(4);
+    //Recursive function
+    cout<<factorial(4);
 
     //Static Functions:
     helper();
-    cout<<MathUtil::cube(3);
+    cout<<MathUtil::cube(3);    //Belongs to class no object needed
+
+    //Function pointer
+    cout<<lul(3,4);
 }
